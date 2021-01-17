@@ -1,0 +1,33 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.200",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "tardisaddon:tardis_exterior_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"result": [
+			{
+				"item": "tardisaddon:tardis_exterior_spawn_egg"
+			}
+		],
+		"pattern": [
+			"DDD",
+			"D#D",
+			"NNN"
+		],
+		"key": {
+			"D": {
+				"item": "minecraft:diamond"
+			},
+			"#": {
+				"item": "minecraft:netherstar"
+			},
+			"N": {
+				"item": "minecraft:netherite_ingot"
+			}
+		}
+	}
+}

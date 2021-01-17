@@ -1,0 +1,40 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Tardis Addon Behaviors",
+		"description": "A fully functioning TARDIS",
+		"uuid": "759172e0-a887-4ab0-a55c-d4056f91eb5c",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			16,
+			200
+		]
+	},
+	"modules": [
+		{
+			"description": "behaviours for Tardis Addon",
+			"type": "data",
+			"uuid": "387d1297-709d-42bf-baa2-c977ca147cf2",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"version": [
+				1,
+				0,
+				0
+			],
+			"uuid": "b28fbc2b-6972-48c2-a910-6a1d08bdde11"
+		}
+	]
+}

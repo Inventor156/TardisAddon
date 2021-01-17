@@ -1,0 +1,8 @@
+{
+	"file_path": "C:\\Users\\fourr\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Tardis Addon - Tardis Addon Resources\\texts\\en_US.lang",
+	"file_type": "client_lang",
+	"format_version": 0,
+	"file_uuid": "6ede7eed_c511_49c1_aadf_fcaa6f62ef8c",
+	"file_version": 6,
+	"cache_content": "item.spawn_egg.entity.tardisaddon:interior_door.name=TARDIS Door\r\nentity.tardisaddon:interior_door.name=TARDIS Door\r\nitem.spawn_egg.entity.tardisaddon:tardis_exterior.name=TARDIS Exterior\r\ntile.tardisaddon:tardis_engine.name=TARDIS Engine\r\nentity.tardisaddon:tardis_exterior.name=TARDIS Exterior"
+}

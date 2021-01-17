@@ -1,0 +1,274 @@
+{
+	"client_entity": {
+		"BP/entity/interior_door.json": {
+			"identifiers": [
+				"tardisaddon:interior_door"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [],
+			"material_references": [],
+			"geometry_references": [],
+			"geometry_identifiers": []
+		},
+		"RP/entity/interior_door.entity.json": {
+			"identifiers": [
+				"tardisaddon:interior_door"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/tardis_exterior.entity.json": {
+			"identifiers": [
+				"tardisaddon:tardis_exterior"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [
+				"default",
+				"demat98",
+				"demat97",
+				"demat96",
+				"demat95",
+				"demat94",
+				"demat93",
+				"demat92",
+				"demat91",
+				"demat90",
+				"demat89",
+				"demat88",
+				"demat87",
+				"demat86",
+				"demat85",
+				"demat84",
+				"demat83",
+				"demat82",
+				"demat81",
+				"demat80",
+				"demat79",
+				"demat78",
+				"demat77",
+				"demat99",
+				"demat76",
+				"demat75",
+				"demat74",
+				"demat73",
+				"demat72",
+				"demat71",
+				"demat70",
+				"demat69",
+				"demat68",
+				"demat67",
+				"demat66",
+				"demat65",
+				"demat64",
+				"demat63",
+				"demat62",
+				"demat61",
+				"demat60",
+				"demat59",
+				"demat58",
+				"demat57",
+				"demat56",
+				"demat55",
+				"demat54",
+				"demat53",
+				"demat52",
+				"demat51",
+				"demat50",
+				"demat49",
+				"demat48",
+				"demat47",
+				"demat46",
+				"demat45",
+				"demat44",
+				"demat43",
+				"demat42",
+				"demat41",
+				"demat40",
+				"demat39",
+				"demat38",
+				"demat37",
+				"demat36",
+				"demat35",
+				"demat34",
+				"demat33",
+				"demat32",
+				"demat31",
+				"demat30",
+				"demat29",
+				"demat28",
+				"demat27",
+				"demat26",
+				"demat25",
+				"demat24",
+				"demat23",
+				"demat22",
+				"demat21",
+				"demat20",
+				"demat19",
+				"demat18",
+				"demat17",
+				"demat16",
+				"demat15",
+				"demat14",
+				"demat13",
+				"demat12",
+				"demat11",
+				"demat10",
+				"demat9",
+				"demat8",
+				"demat7",
+				"demat6",
+				"demat5",
+				"demat4",
+				"demat3",
+				"demat2",
+				"demat1"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		}
+	},
+	"function": {
+		"92d871a3_3aa5_4e8c_ae46_ced9301edb40": {},
+		"901635d3_b41e_46ac_9475_c42f74c76dbf": {},
+		"7200af5f_9c0b_4781_9676_40efa449079d": {},
+		"621cdea2_420f_42d1_ab25_5d3aa8b7d8b2": {},
+		"3b545927_6e98_4650_9472_d96153d7a4b1": {
+			"scoreboards": [
+				"demat",
+				"tardis_x",
+				"tardis_y",
+				"tardis_z"
+			]
+		},
+		"be1f6ff2_54c2_402b_9e89_8a7b38d96915": {},
+		"BP/functions/demat.mcfunction": {
+			"custom_commands": [],
+			"scoreboards": [
+				"fadeoutTimer"
+			]
+		},
+		"BP/functions/tick.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/remat.mcfunction": {
+			"custom_commands": [],
+			"scoreboards": [
+				"fadeinTimer"
+			]
+		},
+		"93873c48_2080_4202_bddb_494ad12b5825": {},
+		"3b61c658_7b2c_467e_8360_c6c6d0194136": {}
+	},
+	"block": {
+		"BP/blocks/tardis_engine.json": {
+			"identifiers": [
+				"tardisaddon:tardis_engine"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"render_controller": {
+		"RP/render_controllers/interior_door.json": {
+			"ids": [
+				"controller.render.interior_door"
+			]
+		},
+		"RP/render_controllers/tardis_exterior.render_controllers.json": {
+			"ids": [
+				"controller.render.tardis_exterior"
+			]
+		}
+	},
+	"item": {},
+	"entity": {
+		"BP/entities/interior_door.json": {
+			"events": [
+				"tardisaddon:on_interact_open",
+				"tardisaddon:on_interact_close"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"tardisaddon:interior_door"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/tardis_exterior.json": {
+			"events": [
+				"tardisaddon:on_interact_open",
+				"minecraft:entity_spawned",
+				"tardisaddon:on_interact_close",
+				"tardisaddon:on_remat",
+				"tardisaddon:set_fly"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"tardisaddon:tardis_exterior"
+			],
+			"animation_references": [
+				"tardis_exterior_controllers"
+			],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"animation_controller": {
+		"BP/animation_controllers/tardis_exterior.json": {
+			"ids": [
+				"controller.animation.tardis_exterior"
+			],
+			"custom_commands": []
+		}
+	},
+	"sound_definition": {
+		"RP/sounds/sound_definitions.json": {
+			"ids": [
+				"block.tardis.takeoff",
+				"block.tardis.land",
+				"entity.door.open",
+				"entity.door.close"
+			]
+		}
+	},
+	"feature": {},
+	"feature_rule": {},
+	"recipe": {
+		"BP/recipes/tardis_exterior.recipe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		}
+	},
+	"rp_animation_controller": {}
+}

@@ -1,0 +1,132 @@
+{
+	"file_path": "C:\\Users\\fourr\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Tardis Addon - Tardis Addon Resources\\textures\\terrain_texture.json",
+	"file_type": "terrain_texture",
+	"format_version": 1,
+	"file_uuid": "3f902451_4ec3_4d27_8796_5b2f5b41e0c6",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "tardisaddon",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.terrain",
+				"key": "texture_name"
+			},
+			{
+				"data": "8",
+				"key": "padding"
+			},
+			{
+				"data": "4",
+				"key": "num_mip_levels"
+			},
+			{
+				"open": {
+					"resource_pack_name": "tardisaddon",
+					"texture_name": "atlas.terrain",
+					"padding": 8,
+					"num_mip_levels": 4,
+					"texture_data": {
+						"steampunk_blue": {
+							"textures": [
+								"textures/block/steampunk_blue"
+							]
+						},
+						"steam_blue_door": {
+							"textures": [
+								"textures/items/steam_blue_door"
+							]
+						},
+						"engine": {
+							"textures": [
+								"textures/block/engine"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"key": "steampunk_blue",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/block/steampunk_blue"
+							]
+						}
+					},
+					{
+						"open": {
+							"steampunk_blue": {
+								"textures": [
+									"textures/block/steampunk_blue"
+								]
+							},
+							"steam_blue_door": {
+								"textures": [
+									"textures/items/steam_blue_door"
+								]
+							},
+							"engine": {
+								"textures": [
+									"textures/block/engine"
+								]
+							}
+						},
+						"key": "steam_blue_door",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/steam_blue_door"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/steam_blue_door"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"steampunk_blue": {
+								"textures": [
+									"textures/block/steampunk_blue"
+								]
+							},
+							"steam_blue_door": {
+								"textures": [
+									"textures/items/steam_blue_door"
+								]
+							},
+							"engine": {
+								"textures": [
+									"textures/block/engine"
+								]
+							}
+						},
+						"key": "engine",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/block/engine"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/block/engine"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

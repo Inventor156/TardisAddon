@@ -1,0 +1,161 @@
+#bridge-file-version: #42
+scoreboard objectives add fadeoutTimer dummy
+ 
+scoreboard players add @e[type=tardisaddon:tardis_exterior] fadeoutTimer 1
+ 
+ 
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=220}] ~ ~ ~ playsound block.tardis.takeoff @a ~ ~ ~ 1 1
+execute @e[type=tardisaddon:interior_door,scores={fadeoutTimer=220}] ~ ~ ~ playsound block.tardis.takeoff @a 100016 228 100016 1 1
+# Just in case...
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=220}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 99
+# Phase 1
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=222}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 1
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=224}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 2
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=226}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 3
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=228}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 4
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=230}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 5
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=232}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 6
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=234}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 7
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=236}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 8
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=238}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 9
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=240}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 10
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=242}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 11
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=244}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 12
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=246}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 13
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=248}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 14
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=250}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 15
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=252}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 16
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=254}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 17
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=256}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 18
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=258}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 19
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=260}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 20
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=262}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 21
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=264}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 22
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=266}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 23
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=268}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 24
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=270}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 25
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=272}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 26
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=274}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 27
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=276}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 28
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=278}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 29
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=280}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 30
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=282}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 31
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=284}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 32
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=286}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 33
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=288}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 34
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=290}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 35
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=292}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 36
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=294}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 37
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=296}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 38
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=298}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 39
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=300}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 40
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=302}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 41
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=304}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 42
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=306}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 43
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=308}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 44
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=310}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 45
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=312}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 46
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=314}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 47
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=316}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 48
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=318}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 49
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=320}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 49
+#phase 2
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=322}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 48
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=324}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 47
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=326}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 46
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=328}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 45
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=330}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 44
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=332}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 43
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=334}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 42
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=336}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 41
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=338}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 40
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=340}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 39
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=342}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 38
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=344}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 37
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=346}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 36
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=348}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 35
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=350}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 36
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=352}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 37
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=354}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 38
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=356}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 39
+#phase 3
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=358}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 48
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=360}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 47
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=362}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 46
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=364}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 45
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=366}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 44
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=368}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 43
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=370}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 42
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=372}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 41
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=374}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 40
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=376}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 39
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=378}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 38
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=380}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 37
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=382}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 36
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=384}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 35
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=386}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 36
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=388}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 37
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=390}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 38
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=392}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 39
+#fade out
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=394}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 40
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=396}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 41
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=398}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 42
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=400}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 43
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=402}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 44
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=404}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 45
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=406}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 46
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=408}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 47
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=410}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 48
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=412}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 49
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=414}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 50
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=416}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 51
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=418}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 52
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=420}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 53
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=422}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 54
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=424}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 55
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=424}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 56
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=426}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 57
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=428}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 58
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=430}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 59
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=432}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 60
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=434}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 61
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=436}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 62
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=438}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 63
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=440}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 64
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=442}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 65
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=444}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 66
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=446}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 67
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=448}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 68
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=450}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 69
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=452}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 70
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=454}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 71
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=456}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 72
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=458}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 73
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=460}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 74
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=462}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 75
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=464}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 76
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=466}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 77
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=468}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 78
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=470}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 79
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=472}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 80
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=474}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 81
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=476}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 82
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=478}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 83
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=480}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 84
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=482}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 85
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=484}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 86
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=486}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 87
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=488}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 88
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=490}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 89
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=492}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 90
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=494}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 91
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=496}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 92
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=498}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 93
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=500}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 94
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=502}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 95
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=504}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 96
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=506}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 97
+execute @e[type=tardisaddon:tardis_exterior,scores={fadeoutTimer=508}] ~ ~ ~ scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 98
+ 
+tickingarea remove TARDIS

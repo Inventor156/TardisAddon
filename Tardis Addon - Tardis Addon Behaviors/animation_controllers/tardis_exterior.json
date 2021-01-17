@@ -1,0 +1,29 @@
+//bridge-file-version: #0
+{
+	"animation_controllers": {
+		"controller.animation.tardis_exterior": {
+			"states": {
+				"teleport": {
+					"on_entry": [
+						"/tp @e[type=tardisaddon:tardis_exterior] query.scoreboard('tardis_x') query.scoreboard('tardis_y') query.scoreboard('tardis_z')",
+						"/execute @e[type=tardisaddon:tardis_exterior] ~ ~ ~ tickingarea add ~ ~ ~ ~ ~1 ~ TARDIS",
+						"/say AAAAAAAA"
+					],
+					"transitions": [
+						{
+							"default": "!query.can_fly"
+						}
+					]
+				},
+				"default": {
+					"transitions": [
+						{
+							"teleport": "query.can_fly"
+						}
+					]
+				}
+			}
+		}
+	},
+	"format_version": "1.10.0"
+}

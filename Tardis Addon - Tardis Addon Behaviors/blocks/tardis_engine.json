@@ -1,0 +1,23 @@
+//bridge-file-version: #19
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "tardisaddon:tardis_engine"
+		},
+		"components": {
+			"minecraft:destroy_time": 1000,
+			"minecraft:explosion_resistance": 1000,
+			"minecraft:block_light_emission": 1,
+			"minecraft:geometry": "geometry.engine_model",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "engine",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:loot": "loot_tables/tardis_engine.loot.json"
+		},
+		"events": {}
+	}
+}

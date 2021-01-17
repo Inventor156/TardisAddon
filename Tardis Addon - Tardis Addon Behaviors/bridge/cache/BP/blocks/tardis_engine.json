@@ -1,0 +1,207 @@
+{
+	"file_path": "C:\\Users\\fourr\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Tardis Addon - Tardis Addon Behaviors\\blocks\\tardis_engine.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "f8b61a17_ea37_4241_bfc4_fa2c0f2f571c",
+	"file_version": 19,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.200",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.200",
+					"minecraft:block": {
+						"description": {
+							"identifier": "tardisaddon:tardis_engine"
+						},
+						"components": {
+							"minecraft:destroy_time": 1000,
+							"minecraft:explosion_resistance": 1000,
+							"minecraft:block_light_emission": 1,
+							"minecraft:geometry": "geometry.engine_model",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "engine",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:loot": "loot_tables/tardis_engine.loot.json"
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "tardisaddon:tardis_engine"
+							},
+							"components": {
+								"minecraft:destroy_time": 1000,
+								"minecraft:explosion_resistance": 1000,
+								"minecraft:block_light_emission": 1,
+								"minecraft:geometry": "geometry.engine_model",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "engine",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:loot": "loot_tables/tardis_engine.loot.json"
+							},
+							"events": {}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "tardisaddon:tardis_engine"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "tardisaddon:tardis_engine"
+							},
+							"components": {
+								"minecraft:destroy_time": 1000,
+								"minecraft:explosion_resistance": 1000,
+								"minecraft:block_light_emission": 1,
+								"minecraft:geometry": "geometry.engine_model",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "engine",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:loot": "loot_tables/tardis_engine.loot.json"
+							},
+							"events": {}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1000",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1000,
+									"minecraft:explosion_resistance": 1000,
+									"minecraft:block_light_emission": 1,
+									"minecraft:geometry": "geometry.engine_model",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "engine",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:loot": "loot_tables/tardis_engine.loot.json"
+								},
+								"data": "1000",
+								"key": "minecraft:explosion_resistance"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1000,
+									"minecraft:explosion_resistance": 1000,
+									"minecraft:block_light_emission": 1,
+									"minecraft:geometry": "geometry.engine_model",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "engine",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:loot": "loot_tables/tardis_engine.loot.json"
+								},
+								"data": "1",
+								"key": "minecraft:block_light_emission"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1000,
+									"minecraft:explosion_resistance": 1000,
+									"minecraft:block_light_emission": 1,
+									"minecraft:geometry": "geometry.engine_model",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "engine",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:loot": "loot_tables/tardis_engine.loot.json"
+								},
+								"data": "geometry.engine_model",
+								"key": "minecraft:geometry"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1000,
+									"minecraft:explosion_resistance": 1000,
+									"minecraft:block_light_emission": 1,
+									"minecraft:geometry": "geometry.engine_model",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "engine",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:loot": "loot_tables/tardis_engine.loot.json"
+								},
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "engine",
+												"render_method": "alpha_test"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "engine",
+											"render_method": "alpha_test"
+										}
+									}
+								]
+							},
+							{
+								"data": "loot_tables/tardis_engine.loot.json",
+								"key": "minecraft:loot"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "tardisaddon:tardis_engine"
+							},
+							"components": {
+								"minecraft:destroy_time": 1000,
+								"minecraft:explosion_resistance": 1000,
+								"minecraft:block_light_emission": 1,
+								"minecraft:geometry": "geometry.engine_model",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "engine",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:loot": "loot_tables/tardis_engine.loot.json"
+							},
+							"events": {}
+						},
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

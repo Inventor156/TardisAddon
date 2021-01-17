@@ -1,0 +1,327 @@
+{
+	"file_path": "C:\\Users\\fourr\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Tardis Addon - Tardis Addon Behaviors\\recipes\\tardis_exterior.recipe.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "474c48aa_98ac_44e3_ae4b_7893de6004e5",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.200",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "tardisaddon:tardis_exterior_recipe"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"result": [
+							{
+								"item": "tardisaddon:tardis_exterior_spawn_egg"
+							}
+						],
+						"pattern": [
+							"DDD",
+							"D#D",
+							"NNN"
+						],
+						"key": {
+							"D": {
+								"item": "minecraft:diamond"
+							},
+							"#": {
+								"item": "minecraft:netherstar"
+							},
+							"N": {
+								"item": "minecraft:netherite_ingot"
+							}
+						}
+					}
+				},
+				"data": "1.16.200",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.200",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "tardisaddon:tardis_exterior_recipe"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"result": [
+							{
+								"item": "tardisaddon:tardis_exterior_spawn_egg"
+							}
+						],
+						"pattern": [
+							"DDD",
+							"D#D",
+							"NNN"
+						],
+						"key": {
+							"D": {
+								"item": "minecraft:diamond"
+							},
+							"#": {
+								"item": "minecraft:netherstar"
+							},
+							"N": {
+								"item": "minecraft:netherite_ingot"
+							}
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "tardisaddon:tardis_exterior_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"result": [
+								{
+									"item": "tardisaddon:tardis_exterior_spawn_egg"
+								}
+							],
+							"pattern": [
+								"DDD",
+								"D#D",
+								"NNN"
+							],
+							"key": {
+								"D": {
+									"item": "minecraft:diamond"
+								},
+								"#": {
+									"item": "minecraft:netherstar"
+								},
+								"N": {
+									"item": "minecraft:netherite_ingot"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "tardisaddon:tardis_exterior_recipe"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "tardisaddon:tardis_exterior_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"result": [
+								{
+									"item": "tardisaddon:tardis_exterior_spawn_egg"
+								}
+							],
+							"pattern": [
+								"DDD",
+								"D#D",
+								"NNN"
+							],
+							"key": {
+								"D": {
+									"item": "minecraft:diamond"
+								},
+								"#": {
+									"item": "minecraft:netherstar"
+								},
+								"N": {
+									"item": "minecraft:netherite_ingot"
+								}
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "tardisaddon:tardis_exterior_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"result": [
+								{
+									"item": "tardisaddon:tardis_exterior_spawn_egg"
+								}
+							],
+							"pattern": [
+								"DDD",
+								"D#D",
+								"NNN"
+							],
+							"key": {
+								"D": {
+									"item": "minecraft:diamond"
+								},
+								"#": {
+									"item": "minecraft:netherstar"
+								},
+								"N": {
+									"item": "minecraft:netherite_ingot"
+								}
+							}
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "tardisaddon:tardis_exterior_spawn_egg"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "tardisaddon:tardis_exterior_spawn_egg"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "tardisaddon:tardis_exterior_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"result": [
+								{
+									"item": "tardisaddon:tardis_exterior_spawn_egg"
+								}
+							],
+							"pattern": [
+								"DDD",
+								"D#D",
+								"NNN"
+							],
+							"key": {
+								"D": {
+									"item": "minecraft:diamond"
+								},
+								"#": {
+									"item": "minecraft:netherstar"
+								},
+								"N": {
+									"item": "minecraft:netherite_ingot"
+								}
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"DDD",
+							"D#D",
+							"NNN"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "tardisaddon:tardis_exterior_recipe"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"result": [
+								{
+									"item": "tardisaddon:tardis_exterior_spawn_egg"
+								}
+							],
+							"pattern": [
+								"DDD",
+								"D#D",
+								"NNN"
+							],
+							"key": {
+								"D": {
+									"item": "minecraft:diamond"
+								},
+								"#": {
+									"item": "minecraft:netherstar"
+								},
+								"N": {
+									"item": "minecraft:netherite_ingot"
+								}
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"D": {
+										"item": "minecraft:diamond"
+									},
+									"#": {
+										"item": "minecraft:netherstar"
+									},
+									"N": {
+										"item": "minecraft:netherite_ingot"
+									}
+								},
+								"key": "D",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:diamond"
+								}
+							},
+							{
+								"open": {
+									"D": {
+										"item": "minecraft:diamond"
+									},
+									"#": {
+										"item": "minecraft:netherstar"
+									},
+									"N": {
+										"item": "minecraft:netherite_ingot"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:netherstar"
+								}
+							},
+							{
+								"open": {
+									"D": {
+										"item": "minecraft:diamond"
+									},
+									"#": {
+										"item": "minecraft:netherstar"
+									},
+									"N": {
+										"item": "minecraft:netherite_ingot"
+									}
+								},
+								"key": "N",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:netherite_ingot"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

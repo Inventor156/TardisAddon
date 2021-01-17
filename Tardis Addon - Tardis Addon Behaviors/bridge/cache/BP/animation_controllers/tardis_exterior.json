@@ -1,0 +1,38 @@
+{
+	"file_path": "C:\\Users\\fourr\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Tardis Addon - Tardis Addon Behaviors\\animation_controllers\\tardis_exterior.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "3b61c658_7b2c_467e_8360_c6c6d0194136",
+	"file_version": 0,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"animation_controllers": {
+				"controller.animation.tardis_exterior": {
+					"states": {
+						"teleport": {
+							"on_entry": [
+								"/tp @e[type=tardisaddon:tardis_exterior] query.scoreboard('tardis_x') query.scoreboard('tardis_y') query.scoreboard('tardis_z')",
+								"/execute @e[type=tardisaddon:tardis_exterior] ~ ~ ~ tickingarea add ~ ~ ~ ~ ~1 ~ TARDIS",
+								"/say AAAAAAAA"
+							],
+							"transitions": [
+								{
+									"default": "!query.can_fly"
+								}
+							]
+						},
+						"default": {
+							"transitions": [
+								{
+									"teleport": "query.can_fly"
+								}
+							]
+						}
+					}
+				}
+			},
+			"format_version": "1.10.0"
+		}
+	}
+}

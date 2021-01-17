@@ -1,0 +1,23 @@
+{
+	"file_path": "C:\\Users\\fourr\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Tardis Addon - Tardis Addon Behaviors\\functions\\tick.json",
+	"file_type": "function_tick",
+	"format_version": 1,
+	"file_uuid": "adff112b_8b7f_4a8e_8090_8f8c4aeedf74",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"values": [
+						"tick"
+					]
+				},
+				"key": "values",
+				"is_minified": true,
+				"children": [
+					"tick"
+				]
+			}
+		]
+	}
+}

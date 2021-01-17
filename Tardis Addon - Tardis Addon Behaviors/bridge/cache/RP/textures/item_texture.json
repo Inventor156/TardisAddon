@@ -1,0 +1,189 @@
+{
+	"file_path": "C:\\Users\\fourr\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Tardis Addon - Tardis Addon Resources\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "6c6c0162_d5b9_46e8_974c_a4cac89399f9",
+	"file_version": 16,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"resource_pack_name": "tardisaddon",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"interior_door": {
+							"textures": [
+								"textures/items/interior_door"
+							]
+						},
+						"tardis": {
+							"textures": [
+								"textures/items/broken_exterior"
+							]
+						},
+						"demat_circuit": {
+							"textures": [
+								"textures/items/demat_circuit"
+							]
+						}
+					}
+				},
+				"data": "tardisaddon",
+				"key": "resource_pack_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "tardisaddon",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"interior_door": {
+							"textures": [
+								"textures/items/interior_door"
+							]
+						},
+						"tardis": {
+							"textures": [
+								"textures/items/broken_exterior"
+							]
+						},
+						"demat_circuit": {
+							"textures": [
+								"textures/items/demat_circuit"
+							]
+						}
+					}
+				},
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "tardisaddon",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"interior_door": {
+							"textures": [
+								"textures/items/interior_door"
+							]
+						},
+						"tardis": {
+							"textures": [
+								"textures/items/broken_exterior"
+							]
+						},
+						"demat_circuit": {
+							"textures": [
+								"textures/items/demat_circuit"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"open": {
+							"interior_door": {
+								"textures": [
+									"textures/items/interior_door"
+								]
+							},
+							"tardis": {
+								"textures": [
+									"textures/items/broken_exterior"
+								]
+							},
+							"demat_circuit": {
+								"textures": [
+									"textures/items/demat_circuit"
+								]
+							}
+						},
+						"key": "interior_door",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/interior_door"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/interior_door"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"interior_door": {
+								"textures": [
+									"textures/items/interior_door"
+								]
+							},
+							"tardis": {
+								"textures": [
+									"textures/items/broken_exterior"
+								]
+							},
+							"demat_circuit": {
+								"textures": [
+									"textures/items/demat_circuit"
+								]
+							}
+						},
+						"key": "tardis",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/broken_exterior"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/broken_exterior"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"interior_door": {
+								"textures": [
+									"textures/items/interior_door"
+								]
+							},
+							"tardis": {
+								"textures": [
+									"textures/items/broken_exterior"
+								]
+							},
+							"demat_circuit": {
+								"textures": [
+									"textures/items/demat_circuit"
+								]
+							}
+						},
+						"key": "demat_circuit",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/demat_circuit"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/demat_circuit"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

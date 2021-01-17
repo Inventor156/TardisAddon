@@ -1,0 +1,310 @@
+{
+	"file_path": "C:\\Users\\fourr\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Tardis Addon - Tardis Addon Resources\\render_controllers\\interior_door.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "4401aabe_8da5_4b9e_aa15_dcc2cf385a9a",
+	"file_version": 37,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.interior_door": {
+							"geometry": "Geometry.default",
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							],
+							"textures": [
+								"Texture.default"
+							],
+							"part_visibility": [
+								{
+									"door_rotate_y*": "query.skin_id == 0",
+									"hinge*": "query.skin_id == 0",
+									"handle*": "query.skin_id == 0",
+									"kickplate*": "query.skin_id == 0",
+									"lock*": "query.skin_id == 0"
+								},
+								{
+									"door_rotate_y2*": "query.skin_id == 1",
+									"hinge2*": "query.skin_id == 1",
+									"handle2*": "query.skin_id == 1",
+									"kickplate2*": "query.skin_id == 1",
+									"lock2*": "query.skin_id == 1"
+								}
+							]
+						}
+					}
+				},
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.interior_door": {
+							"geometry": "Geometry.default",
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							],
+							"textures": [
+								"Texture.default"
+							],
+							"part_visibility": [
+								{
+									"door_rotate_y*": "query.skin_id == 0",
+									"hinge*": "query.skin_id == 0",
+									"handle*": "query.skin_id == 0",
+									"kickplate*": "query.skin_id == 0",
+									"lock*": "query.skin_id == 0"
+								},
+								{
+									"door_rotate_y2*": "query.skin_id == 1",
+									"hinge2*": "query.skin_id == 1",
+									"handle2*": "query.skin_id == 1",
+									"kickplate2*": "query.skin_id == 1",
+									"lock2*": "query.skin_id == 1"
+								}
+							]
+						}
+					}
+				},
+				"key": "render_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.render.interior_door": {
+								"geometry": "Geometry.default",
+								"materials": [
+									{
+										"*": "Material.default"
+									}
+								],
+								"textures": [
+									"Texture.default"
+								],
+								"part_visibility": [
+									{
+										"door_rotate_y*": "query.skin_id == 0",
+										"hinge*": "query.skin_id == 0",
+										"handle*": "query.skin_id == 0",
+										"kickplate*": "query.skin_id == 0",
+										"lock*": "query.skin_id == 0"
+									},
+									{
+										"door_rotate_y2*": "query.skin_id == 1",
+										"hinge2*": "query.skin_id == 1",
+										"handle2*": "query.skin_id == 1",
+										"kickplate2*": "query.skin_id == 1",
+										"lock2*": "query.skin_id == 1"
+									}
+								]
+							}
+						},
+						"key": "controller.render.interior_door",
+						"children": [
+							{
+								"open": {
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Texture.default"
+									],
+									"part_visibility": [
+										{
+											"door_rotate_y*": "query.skin_id == 0",
+											"hinge*": "query.skin_id == 0",
+											"handle*": "query.skin_id == 0",
+											"kickplate*": "query.skin_id == 0",
+											"lock*": "query.skin_id == 0"
+										},
+										{
+											"door_rotate_y2*": "query.skin_id == 1",
+											"hinge2*": "query.skin_id == 1",
+											"handle2*": "query.skin_id == 1",
+											"kickplate2*": "query.skin_id == 1",
+											"lock2*": "query.skin_id == 1"
+										}
+									]
+								},
+								"data": "Geometry.default",
+								"key": "geometry"
+							},
+							{
+								"open": {
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Texture.default"
+									],
+									"part_visibility": [
+										{
+											"door_rotate_y*": "query.skin_id == 0",
+											"hinge*": "query.skin_id == 0",
+											"handle*": "query.skin_id == 0",
+											"kickplate*": "query.skin_id == 0",
+											"lock*": "query.skin_id == 0"
+										},
+										{
+											"door_rotate_y2*": "query.skin_id == 1",
+											"hinge2*": "query.skin_id == 1",
+											"handle2*": "query.skin_id == 1",
+											"kickplate2*": "query.skin_id == 1",
+											"lock2*": "query.skin_id == 1"
+										}
+									]
+								},
+								"key": "materials",
+								"children": [
+									{
+										"open": [
+											{
+												"*": "Material.default"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"*": "Material.default"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Texture.default"
+									],
+									"part_visibility": [
+										{
+											"door_rotate_y*": "query.skin_id == 0",
+											"hinge*": "query.skin_id == 0",
+											"handle*": "query.skin_id == 0",
+											"kickplate*": "query.skin_id == 0",
+											"lock*": "query.skin_id == 0"
+										},
+										{
+											"door_rotate_y2*": "query.skin_id == 1",
+											"hinge2*": "query.skin_id == 1",
+											"handle2*": "query.skin_id == 1",
+											"kickplate2*": "query.skin_id == 1",
+											"lock2*": "query.skin_id == 1"
+										}
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"Texture.default"
+								]
+							},
+							{
+								"open": {
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Texture.default"
+									],
+									"part_visibility": [
+										{
+											"door_rotate_y*": "query.skin_id == 0",
+											"hinge*": "query.skin_id == 0",
+											"handle*": "query.skin_id == 0",
+											"kickplate*": "query.skin_id == 0",
+											"lock*": "query.skin_id == 0"
+										},
+										{
+											"door_rotate_y2*": "query.skin_id == 1",
+											"hinge2*": "query.skin_id == 1",
+											"handle2*": "query.skin_id == 1",
+											"kickplate2*": "query.skin_id == 1",
+											"lock2*": "query.skin_id == 1"
+										}
+									]
+								},
+								"key": "part_visibility",
+								"children": [
+									{
+										"open": [
+											{
+												"door_rotate_y*": "query.skin_id == 0",
+												"hinge*": "query.skin_id == 0",
+												"handle*": "query.skin_id == 0",
+												"kickplate*": "query.skin_id == 0",
+												"lock*": "query.skin_id == 0"
+											},
+											{
+												"door_rotate_y2*": "query.skin_id == 1",
+												"hinge2*": "query.skin_id == 1",
+												"handle2*": "query.skin_id == 1",
+												"kickplate2*": "query.skin_id == 1",
+												"lock2*": "query.skin_id == 1"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"door_rotate_y*": "query.skin_id == 0",
+											"hinge*": "query.skin_id == 0",
+											"handle*": "query.skin_id == 0",
+											"kickplate*": "query.skin_id == 0",
+											"lock*": "query.skin_id == 0"
+										}
+									},
+									{
+										"open": [
+											{
+												"door_rotate_y*": "query.skin_id == 0",
+												"hinge*": "query.skin_id == 0",
+												"handle*": "query.skin_id == 0",
+												"kickplate*": "query.skin_id == 0",
+												"lock*": "query.skin_id == 0"
+											},
+											{
+												"door_rotate_y2*": "query.skin_id == 1",
+												"hinge2*": "query.skin_id == 1",
+												"handle2*": "query.skin_id == 1",
+												"kickplate2*": "query.skin_id == 1",
+												"lock2*": "query.skin_id == 1"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"door_rotate_y2*": "query.skin_id == 1",
+											"hinge2*": "query.skin_id == 1",
+											"handle2*": "query.skin_id == 1",
+											"kickplate2*": "query.skin_id == 1",
+											"lock2*": "query.skin_id == 1"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

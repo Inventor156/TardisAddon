@@ -1,0 +1,153 @@
+//bridge-file-version: #114
+{
+	"minecraft:entity": {
+		"description": {
+			"identifier": "tardisaddon:tardis_exterior",
+			"is_experimental": false,
+			"is_spawnable": true,
+			"is_summonable": true,
+			"scripts": {
+				"animate": [
+					"tardis_exterior_controllers"
+				]
+			},
+			"animations": {
+				"tardis_exterior_controllers": "controller.animation.tardis_exterior"
+			}
+		},
+		"components": {
+			"minecraft:health": {
+				"value": 1000,
+				"max": 1000
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"event": "tardisaddon:on_interact_open",
+							"target": "self",
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_skin_id",
+										"value": 0,
+										"subject": "self"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_interact": {
+							"event": "tardisaddon:on_interact_close",
+							"target": "self",
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_skin_id",
+										"subject": "self",
+										"value": 1
+									}
+								]
+							}
+						}
+					}
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 2
+			},
+			"minecraft:scale": {
+				"value": 0.25
+			},
+			"minecraft:physics": {},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:tick_world": {
+				"never_despawn": true,
+				"radius": 2
+			},
+			"minecraft:despawn": {
+				"despawn_from_inactivity": false,
+				"despawn_from_chance": false
+			}
+		},
+		"events": {
+			"tardisaddon:on_interact_open": {
+				"add": {
+					"component_groups": [
+						"tardisaddon:skin_id_set_open"
+					]
+				},
+				"run_command": {
+					"command": [
+						"tp @p[r=2] 100016 225 100028"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"run_command": {
+					"command": [
+						"structure load tardisaddon:interior_inventor 100000 214 100000",
+						"scoreboard objectives add demat dummy",
+						"scoreboard objectives setdisplay belowname demat",
+						"scoreboard players set @e[type=tardisaddon:tardis_exterior] demat 99",
+						"scoreboard objectives add tardis_x dummy",
+						"scoreboard players set @e[type=tardisaddon:interior_door] tardis_x 0",
+						"scoreboard objectives add tardis_y dummy",
+						"scoreboard players set @e[type=tardisaddon:interior_door] tardis_y 0",
+						"scoreboard objectives add tardis_z dummy",
+						"scoreboard players set @e[type=tardisaddon:interior_door] tardis_z 0"
+					]
+				}
+			},
+			"tardisaddon:on_interact_close": {
+				"add": {
+					"component_groups": [
+						"tardisaddon:skin_id_set_close"
+					]
+				}
+			},
+			"tardisaddon:on_remat": {
+				"add": {
+					"component_groups": [
+						"tardisaddon:set_fly_true"
+					]
+				}
+			},
+			"tardisaddon:set_fly": {
+				"add": {
+					"component_groups": [
+						"tardisaddon:set_fly_false"
+					]
+				}
+			}
+		},
+		"component_groups": {
+			"tardisaddon:skin_id_set_open": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"tardisaddon:skin_id_set_close": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			},
+			"tardisaddon:set_fly_false": {
+				"minecraft:can_fly": false
+			},
+			"tardisaddon:set_fly_true": {
+				"minecraft:can_fly": true
+			}
+		}
+	},
+	"format_version": "1.16.200"
+}

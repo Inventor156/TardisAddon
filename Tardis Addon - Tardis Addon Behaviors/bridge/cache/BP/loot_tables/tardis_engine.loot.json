@@ -1,0 +1,68 @@
+{
+	"file_path": "C:\\Users\\fourr\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Tardis Addon - Tardis Addon Behaviors\\loot_tables\\tardis_engine.loot.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "dd2000d7_8e2a_455c_9753_37bc9efe438e",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"entries": [
+								{
+									"type": "item",
+									"name": "tardisaddon:tardis_engine"
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"entries": [
+									{
+										"type": "item",
+										"name": "tardisaddon:tardis_engine"
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"open": {
+									"entries": [
+										{
+											"type": "item",
+											"name": "tardisaddon:tardis_engine"
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "tardisaddon:tardis_engine"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "tardisaddon:tardis_engine"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

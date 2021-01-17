@@ -1,0 +1,1114 @@
+{
+	"file_path": "C:\\Users\\fourr\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Tardis Addon - Tardis Addon Behaviors\\entities\\interior_door.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "901635d3_b41e_46ac_9475_c42f74c76dbf",
+	"file_version": 138,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"minecraft:entity": {
+						"description": {
+							"identifier": "tardisaddon:interior_door",
+							"is_spawnable": true,
+							"is_experimental": false,
+							"is_summonable": true
+						},
+						"components": {
+							"minecraft:loot": {
+								"table": "loot_tables/interior_door.loot.json"
+							},
+							"minecraft:scale": {
+								"value": 2.25
+							},
+							"minecraft:collision_box": {
+								"width": 0.25,
+								"height": 0.75
+							},
+							"minecraft:interact": {
+								"interactions": [
+									{
+										"on_interact": {
+											"event": "tardisaddon:on_interact_open",
+											"target": "self",
+											"filters": {
+												"all_of": [
+													{
+														"test": "is_skin_id",
+														"value": 0,
+														"subject": "self"
+													}
+												]
+											}
+										}
+									},
+									{
+										"on_interact": {
+											"event": "tardisaddon:on_interact_close",
+											"target": "self",
+											"filters": {
+												"all_of": [
+													{
+														"test": "is_skin_id",
+														"subject": "self",
+														"value": 1
+													}
+												]
+											}
+										}
+									}
+								]
+							},
+							"minecraft:health": {
+								"value": 1000,
+								"max": 1000,
+								"min": 1000
+							},
+							"minecraft:physics": {}
+						},
+						"events": {
+							"tardisaddon:on_interact_open": {
+								"add": {
+									"component_groups": [
+										"tardisaddon:skin_id_set_open"
+									]
+								},
+								"run_command": {
+									"command": [
+										"tp @p[r=2] @e[type=tardisaddon:tardis_exterior]"
+									]
+								}
+							},
+							"tardisaddon:on_interact_close": {
+								"add": {
+									"component_groups": [
+										"tardisaddon:skin_id_set_close"
+									]
+								}
+							}
+						},
+						"component_groups": {
+							"tardisaddon:skin_id_set_open": {
+								"minecraft:skin_id": {
+									"value": 1
+								}
+							},
+							"tardisaddon:skin_id_set_close": {
+								"minecraft:skin_id": {
+									"value": 0
+								}
+							}
+						}
+					},
+					"format_version": "1.16.200"
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "tardisaddon:interior_door",
+								"is_spawnable": true,
+								"is_experimental": false,
+								"is_summonable": true
+							},
+							"components": {
+								"minecraft:loot": {
+									"table": "loot_tables/interior_door.loot.json"
+								},
+								"minecraft:scale": {
+									"value": 2.25
+								},
+								"minecraft:collision_box": {
+									"width": 0.25,
+									"height": 0.75
+								},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"on_interact": {
+												"event": "tardisaddon:on_interact_open",
+												"target": "self",
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_skin_id",
+															"value": 0,
+															"subject": "self"
+														}
+													]
+												}
+											}
+										},
+										{
+											"on_interact": {
+												"event": "tardisaddon:on_interact_close",
+												"target": "self",
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_skin_id",
+															"subject": "self",
+															"value": 1
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"minecraft:health": {
+									"value": 1000,
+									"max": 1000,
+									"min": 1000
+								},
+								"minecraft:physics": {}
+							},
+							"events": {
+								"tardisaddon:on_interact_open": {
+									"add": {
+										"component_groups": [
+											"tardisaddon:skin_id_set_open"
+										]
+									},
+									"run_command": {
+										"command": [
+											"tp @p[r=2] @e[type=tardisaddon:tardis_exterior]"
+										]
+									}
+								},
+								"tardisaddon:on_interact_close": {
+									"add": {
+										"component_groups": [
+											"tardisaddon:skin_id_set_close"
+										]
+									}
+								}
+							},
+							"component_groups": {
+								"tardisaddon:skin_id_set_open": {
+									"minecraft:skin_id": {
+										"value": 1
+									}
+								},
+								"tardisaddon:skin_id_set_close": {
+									"minecraft:skin_id": {
+										"value": 0
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "tardisaddon:interior_door",
+							"is_spawnable": true,
+							"is_experimental": false,
+							"is_summonable": true
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "tardisaddon:interior_door",
+								"is_spawnable": true,
+								"is_experimental": false,
+								"is_summonable": true
+							},
+							"components": {
+								"minecraft:loot": {
+									"table": "loot_tables/interior_door.loot.json"
+								},
+								"minecraft:scale": {
+									"value": 2.25
+								},
+								"minecraft:collision_box": {
+									"width": 0.25,
+									"height": 0.75
+								},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"on_interact": {
+												"event": "tardisaddon:on_interact_open",
+												"target": "self",
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_skin_id",
+															"value": 0,
+															"subject": "self"
+														}
+													]
+												}
+											}
+										},
+										{
+											"on_interact": {
+												"event": "tardisaddon:on_interact_close",
+												"target": "self",
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_skin_id",
+															"subject": "self",
+															"value": 1
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"minecraft:health": {
+									"value": 1000,
+									"max": 1000,
+									"min": 1000
+								},
+								"minecraft:physics": {}
+							},
+							"events": {
+								"tardisaddon:on_interact_open": {
+									"add": {
+										"component_groups": [
+											"tardisaddon:skin_id_set_open"
+										]
+									},
+									"run_command": {
+										"command": [
+											"tp @p[r=2] @e[type=tardisaddon:tardis_exterior]"
+										]
+									}
+								},
+								"tardisaddon:on_interact_close": {
+									"add": {
+										"component_groups": [
+											"tardisaddon:skin_id_set_close"
+										]
+									}
+								}
+							},
+							"component_groups": {
+								"tardisaddon:skin_id_set_open": {
+									"minecraft:skin_id": {
+										"value": 1
+									}
+								},
+								"tardisaddon:skin_id_set_close": {
+									"minecraft:skin_id": {
+										"value": 0
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:loot",
+								"is_minified": true,
+								"children": {
+									"table": "loot_tables/interior_door.loot.json"
+								}
+							},
+							{
+								"key": "minecraft:scale",
+								"is_minified": true,
+								"children": {
+									"value": 2.25
+								}
+							},
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 0.25,
+									"height": 0.75
+								}
+							},
+							{
+								"open": {
+									"minecraft:loot": {
+										"table": "loot_tables/interior_door.loot.json"
+									},
+									"minecraft:scale": {
+										"value": 2.25
+									},
+									"minecraft:collision_box": {
+										"width": 0.25,
+										"height": 0.75
+									},
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"on_interact": {
+													"event": "tardisaddon:on_interact_open",
+													"target": "self",
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_skin_id",
+																"value": 0,
+																"subject": "self"
+															}
+														]
+													}
+												}
+											},
+											{
+												"on_interact": {
+													"event": "tardisaddon:on_interact_close",
+													"target": "self",
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_skin_id",
+																"subject": "self",
+																"value": 1
+															}
+														]
+													}
+												}
+											}
+										]
+									},
+									"minecraft:health": {
+										"value": 1000,
+										"max": 1000,
+										"min": 1000
+									},
+									"minecraft:physics": {}
+								},
+								"key": "minecraft:interact",
+								"children": [
+									{
+										"open": {
+											"interactions": [
+												{
+													"on_interact": {
+														"event": "tardisaddon:on_interact_open",
+														"target": "self",
+														"filters": {
+															"all_of": [
+																{
+																	"test": "is_skin_id",
+																	"value": 0,
+																	"subject": "self"
+																}
+															]
+														}
+													}
+												},
+												{
+													"on_interact": {
+														"event": "tardisaddon:on_interact_close",
+														"target": "self",
+														"filters": {
+															"all_of": [
+																{
+																	"test": "is_skin_id",
+																	"subject": "self",
+																	"value": 1
+																}
+															]
+														}
+													}
+												}
+											]
+										},
+										"key": "interactions",
+										"children": [
+											{
+												"open": [
+													{
+														"on_interact": {
+															"event": "tardisaddon:on_interact_open",
+															"target": "self",
+															"filters": {
+																"all_of": [
+																	{
+																		"test": "is_skin_id",
+																		"value": 0,
+																		"subject": "self"
+																	}
+																]
+															}
+														}
+													},
+													{
+														"on_interact": {
+															"event": "tardisaddon:on_interact_close",
+															"target": "self",
+															"filters": {
+																"all_of": [
+																	{
+																		"test": "is_skin_id",
+																		"subject": "self",
+																		"value": 1
+																	}
+																]
+															}
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"on_interact": {
+																"event": "tardisaddon:on_interact_open",
+																"target": "self",
+																"filters": {
+																	"all_of": [
+																		{
+																			"test": "is_skin_id",
+																			"value": 0,
+																			"subject": "self"
+																		}
+																	]
+																}
+															}
+														},
+														"key": "on_interact",
+														"children": [
+															{
+																"data": "tardisaddon:on_interact_open",
+																"key": "event"
+															},
+															{
+																"data": "self",
+																"key": "target"
+															},
+															{
+																"open": {
+																	"event": "tardisaddon:on_interact_open",
+																	"target": "self",
+																	"filters": {
+																		"all_of": [
+																			{
+																				"test": "is_skin_id",
+																				"value": 0,
+																				"subject": "self"
+																			}
+																		]
+																	}
+																},
+																"key": "filters",
+																"children": [
+																	{
+																		"open": {
+																			"all_of": [
+																				{
+																					"test": "is_skin_id",
+																					"value": 0,
+																					"subject": "self"
+																				}
+																			]
+																		},
+																		"key": "all_of",
+																		"children": [
+																			{
+																				"open": [
+																					{
+																						"test": "is_skin_id",
+																						"value": 0,
+																						"subject": "self"
+																					}
+																				],
+																				"is_minified": true,
+																				"children": {
+																					"test": "is_skin_id",
+																					"value": 0,
+																					"subject": "self"
+																				}
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"on_interact": {
+															"event": "tardisaddon:on_interact_open",
+															"target": "self",
+															"filters": {
+																"all_of": [
+																	{
+																		"test": "is_skin_id",
+																		"value": 0,
+																		"subject": "self"
+																	}
+																]
+															}
+														}
+													},
+													{
+														"on_interact": {
+															"event": "tardisaddon:on_interact_close",
+															"target": "self",
+															"filters": {
+																"all_of": [
+																	{
+																		"test": "is_skin_id",
+																		"subject": "self",
+																		"value": 1
+																	}
+																]
+															}
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"on_interact": {
+																"event": "tardisaddon:on_interact_close",
+																"target": "self",
+																"filters": {
+																	"all_of": [
+																		{
+																			"test": "is_skin_id",
+																			"subject": "self",
+																			"value": 1
+																		}
+																	]
+																}
+															}
+														},
+														"key": "on_interact",
+														"children": [
+															{
+																"data": "tardisaddon:on_interact_close",
+																"key": "event"
+															},
+															{
+																"data": "self",
+																"key": "target"
+															},
+															{
+																"open": {
+																	"event": "tardisaddon:on_interact_close",
+																	"target": "self",
+																	"filters": {
+																		"all_of": [
+																			{
+																				"test": "is_skin_id",
+																				"subject": "self",
+																				"value": 1
+																			}
+																		]
+																	}
+																},
+																"key": "filters",
+																"children": [
+																	{
+																		"open": {
+																			"all_of": [
+																				{
+																					"test": "is_skin_id",
+																					"subject": "self",
+																					"value": 1
+																				}
+																			]
+																		},
+																		"key": "all_of",
+																		"children": [
+																			{
+																				"open": [
+																					{
+																						"test": "is_skin_id",
+																						"subject": "self",
+																						"value": 1
+																					}
+																				],
+																				"is_minified": true,
+																				"children": {
+																					"test": "is_skin_id",
+																					"subject": "self",
+																					"value": 1
+																				}
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:loot": {
+										"table": "loot_tables/interior_door.loot.json"
+									},
+									"minecraft:scale": {
+										"value": 2.25
+									},
+									"minecraft:collision_box": {
+										"width": 0.25,
+										"height": 0.75
+									},
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"on_interact": {
+													"event": "tardisaddon:on_interact_open",
+													"target": "self",
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_skin_id",
+																"value": 0,
+																"subject": "self"
+															}
+														]
+													}
+												}
+											},
+											{
+												"on_interact": {
+													"event": "tardisaddon:on_interact_close",
+													"target": "self",
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_skin_id",
+																"subject": "self",
+																"value": 1
+															}
+														]
+													}
+												}
+											}
+										]
+									},
+									"minecraft:health": {
+										"value": 1000,
+										"max": 1000,
+										"min": 1000
+									},
+									"minecraft:physics": {}
+								},
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": 1000,
+									"max": 1000,
+									"min": 1000
+								}
+							},
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "tardisaddon:interior_door",
+								"is_spawnable": true,
+								"is_experimental": false,
+								"is_summonable": true
+							},
+							"components": {
+								"minecraft:loot": {
+									"table": "loot_tables/interior_door.loot.json"
+								},
+								"minecraft:scale": {
+									"value": 2.25
+								},
+								"minecraft:collision_box": {
+									"width": 0.25,
+									"height": 0.75
+								},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"on_interact": {
+												"event": "tardisaddon:on_interact_open",
+												"target": "self",
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_skin_id",
+															"value": 0,
+															"subject": "self"
+														}
+													]
+												}
+											}
+										},
+										{
+											"on_interact": {
+												"event": "tardisaddon:on_interact_close",
+												"target": "self",
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_skin_id",
+															"subject": "self",
+															"value": 1
+														}
+													]
+												}
+											}
+										}
+									]
+								},
+								"minecraft:health": {
+									"value": 1000,
+									"max": 1000,
+									"min": 1000
+								},
+								"minecraft:physics": {}
+							},
+							"events": {
+								"tardisaddon:on_interact_open": {
+									"add": {
+										"component_groups": [
+											"tardisaddon:skin_id_set_open"
+										]
+									},
+									"run_command": {
+										"command": [
+											"tp @p[r=2] @e[type=tardisaddon:tardis_exterior]"
+										]
+									}
+								},
+								"tardisaddon:on_interact_close": {
+									"add": {
+										"component_groups": [
+											"tardisaddon:skin_id_set_close"
+										]
+									}
+								}
+							},
+							"component_groups": {
+								"tardisaddon:skin_id_set_open": {
+									"minecraft:skin_id": {
+										"value": 1
+									}
+								},
+								"tardisaddon:skin_id_set_close": {
+									"minecraft:skin_id": {
+										"value": 0
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"tardisaddon:on_interact_open": {
+										"add": {
+											"component_groups": [
+												"tardisaddon:skin_id_set_open"
+											]
+										},
+										"run_command": {
+											"command": [
+												"tp @p[r=2] @e[type=tardisaddon:tardis_exterior]"
+											]
+										}
+									},
+									"tardisaddon:on_interact_close": {
+										"add": {
+											"component_groups": [
+												"tardisaddon:skin_id_set_close"
+											]
+										}
+									}
+								},
+								"key": "tardisaddon:on_interact_open",
+								"children": [
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"tardisaddon:skin_id_set_open"
+												]
+											},
+											"run_command": {
+												"command": [
+													"tp @p[r=2] @e[type=tardisaddon:tardis_exterior]"
+												]
+											}
+										},
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"tardisaddon:skin_id_set_open"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"children": [
+													"tardisaddon:skin_id_set_open"
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"tardisaddon:skin_id_set_open"
+												]
+											},
+											"run_command": {
+												"command": [
+													"tp @p[r=2] @e[type=tardisaddon:tardis_exterior]"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"tp @p[r=2] @e[type=tardisaddon:tardis_exterior]"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"tp @p[r=2] @e[type=tardisaddon:tardis_exterior]"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"tardisaddon:on_interact_open": {
+										"add": {
+											"component_groups": [
+												"tardisaddon:skin_id_set_open"
+											]
+										},
+										"run_command": {
+											"command": [
+												"tp @p[r=2] @e[type=tardisaddon:tardis_exterior]"
+											]
+										}
+									},
+									"tardisaddon:on_interact_close": {
+										"add": {
+											"component_groups": [
+												"tardisaddon:skin_id_set_close"
+											]
+										}
+									}
+								},
+								"key": "tardisaddon:on_interact_close",
+								"children": [
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"tardisaddon:skin_id_set_close"
+												]
+											}
+										},
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"tardisaddon:skin_id_set_close"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"children": [
+													"tardisaddon:skin_id_set_close"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"key": "component_groups",
+						"children": [
+							{
+								"open": {
+									"tardisaddon:skin_id_set_open": {
+										"minecraft:skin_id": {
+											"value": 1
+										}
+									},
+									"tardisaddon:skin_id_set_close": {
+										"minecraft:skin_id": {
+											"value": 0
+										}
+									}
+								},
+								"key": "tardisaddon:skin_id_set_open",
+								"children": [
+									{
+										"open": {
+											"minecraft:skin_id": {
+												"value": 1
+											}
+										},
+										"key": "minecraft:skin_id",
+										"is_minified": true,
+										"children": {
+											"value": 1
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"tardisaddon:skin_id_set_open": {
+										"minecraft:skin_id": {
+											"value": 1
+										}
+									},
+									"tardisaddon:skin_id_set_close": {
+										"minecraft:skin_id": {
+											"value": 0
+										}
+									}
+								},
+								"key": "tardisaddon:skin_id_set_close",
+								"children": [
+									{
+										"open": {
+											"minecraft:skin_id": {
+												"value": 0
+											}
+										},
+										"key": "minecraft:skin_id",
+										"is_minified": true,
+										"children": {
+											"value": 0
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"open": {
+					"minecraft:entity": {
+						"description": {
+							"identifier": "tardisaddon:interior_door",
+							"is_spawnable": true,
+							"is_experimental": false,
+							"is_summonable": true
+						},
+						"components": {
+							"minecraft:loot": {
+								"table": "loot_tables/interior_door.loot.json"
+							},
+							"minecraft:scale": {
+								"value": 2.25
+							},
+							"minecraft:collision_box": {
+								"width": 0.25,
+								"height": 0.75
+							},
+							"minecraft:interact": {
+								"interactions": [
+									{
+										"on_interact": {
+											"event": "tardisaddon:on_interact_open",
+											"target": "self",
+											"filters": {
+												"all_of": [
+													{
+														"test": "is_skin_id",
+														"value": 0,
+														"subject": "self"
+													}
+												]
+											}
+										}
+									},
+									{
+										"on_interact": {
+											"event": "tardisaddon:on_interact_close",
+											"target": "self",
+											"filters": {
+												"all_of": [
+													{
+														"test": "is_skin_id",
+														"subject": "self",
+														"value": 1
+													}
+												]
+											}
+										}
+									}
+								]
+							},
+							"minecraft:health": {
+								"value": 1000,
+								"max": 1000,
+								"min": 1000
+							},
+							"minecraft:physics": {}
+						},
+						"events": {
+							"tardisaddon:on_interact_open": {
+								"add": {
+									"component_groups": [
+										"tardisaddon:skin_id_set_open"
+									]
+								},
+								"run_command": {
+									"command": [
+										"tp @p[r=2] @e[type=tardisaddon:tardis_exterior]"
+									]
+								}
+							},
+							"tardisaddon:on_interact_close": {
+								"add": {
+									"component_groups": [
+										"tardisaddon:skin_id_set_close"
+									]
+								}
+							}
+						},
+						"component_groups": {
+							"tardisaddon:skin_id_set_open": {
+								"minecraft:skin_id": {
+									"value": 1
+								}
+							},
+							"tardisaddon:skin_id_set_close": {
+								"minecraft:skin_id": {
+									"value": 0
+								}
+							}
+						}
+					},
+					"format_version": "1.16.200"
+				},
+				"data": "1.16.200",
+				"key": "format_version"
+			}
+		]
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"file_path": "C:\\Users\\fourr\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Tardis Addon - Tardis Addon Resources\\blocks.json",
+	"file_type": "client_block",
+	"format_version": 1,
+	"file_uuid": "c7ab9d02_da19_4d83_aebe_cfca3c00684d",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"key": "format_version",
+				"is_minified": true,
+				"children": [
+					1,
+					1,
+					0
+				]
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"tardisaddon:tardis_exterior": {
+						"sound": "stone"
+					},
+					"tardisaddon:tardis_engine": {
+						"sound": "metal"
+					}
+				},
+				"key": "tardisaddon:tardis_exterior",
+				"is_minified": true,
+				"children": {
+					"sound": "stone"
+				}
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"tardisaddon:tardis_exterior": {
+						"sound": "stone"
+					},
+					"tardisaddon:tardis_engine": {
+						"sound": "metal"
+					}
+				},
+				"key": "tardisaddon:tardis_engine",
+				"is_minified": true,
+				"children": {
+					"sound": "metal"
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,97 @@
+//bridge-file-version: #138
+{
+	"minecraft:entity": {
+		"description": {
+			"identifier": "tardisaddon:interior_door",
+			"is_spawnable": true,
+			"is_experimental": false,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:loot": {
+				"table": "loot_tables/interior_door.loot.json"
+			},
+			"minecraft:scale": {
+				"value": 2.25
+			},
+			"minecraft:collision_box": {
+				"width": 0.25,
+				"height": 0.75
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"event": "tardisaddon:on_interact_open",
+							"target": "self",
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_skin_id",
+										"value": 0,
+										"subject": "self"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_interact": {
+							"event": "tardisaddon:on_interact_close",
+							"target": "self",
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_skin_id",
+										"subject": "self",
+										"value": 1
+									}
+								]
+							}
+						}
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1000,
+				"max": 1000,
+				"min": 1000
+			},
+			"minecraft:physics": {}
+		},
+		"events": {
+			"tardisaddon:on_interact_open": {
+				"add": {
+					"component_groups": [
+						"tardisaddon:skin_id_set_open"
+					]
+				},
+				"run_command": {
+					"command": [
+						"tp @p[r=2] @e[type=tardisaddon:tardis_exterior]"
+					]
+				}
+			},
+			"tardisaddon:on_interact_close": {
+				"add": {
+					"component_groups": [
+						"tardisaddon:skin_id_set_close"
+					]
+				}
+			}
+		},
+		"component_groups": {
+			"tardisaddon:skin_id_set_open": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"tardisaddon:skin_id_set_close": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			}
+		}
+	},
+	"format_version": "1.16.200"
+}

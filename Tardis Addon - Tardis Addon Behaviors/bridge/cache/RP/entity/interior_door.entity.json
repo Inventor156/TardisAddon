@@ -1,0 +1,248 @@
+{
+	"file_path": "C:\\Users\\fourr\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Tardis Addon - Tardis Addon Resources\\entity\\interior_door.entity.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "4e5bd634_cac4_4792_9e6a_281cbdcfa0b3",
+	"file_version": 37,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"spawn_egg": {
+								"texture": "interior_door",
+								"texture_index": 0
+							},
+							"identifier": "tardisaddon:interior_door",
+							"materials": {
+								"default": "entity"
+							},
+							"textures": {
+								"default": "textures/entity/steampunk_blue"
+							},
+							"geometry": {
+								"default": "geometry.steam_interior_door_model"
+							},
+							"render_controllers": [
+								"controller.render.interior_door"
+							]
+						}
+					}
+				},
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"spawn_egg": {
+								"texture": "interior_door",
+								"texture_index": 0
+							},
+							"identifier": "tardisaddon:interior_door",
+							"materials": {
+								"default": "entity"
+							},
+							"textures": {
+								"default": "textures/entity/steampunk_blue"
+							},
+							"geometry": {
+								"default": "geometry.steam_interior_door_model"
+							},
+							"render_controllers": [
+								"controller.render.interior_door"
+							]
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"spawn_egg": {
+									"texture": "interior_door",
+									"texture_index": 0
+								},
+								"identifier": "tardisaddon:interior_door",
+								"materials": {
+									"default": "entity"
+								},
+								"textures": {
+									"default": "textures/entity/steampunk_blue"
+								},
+								"geometry": {
+									"default": "geometry.steam_interior_door_model"
+								},
+								"render_controllers": [
+									"controller.render.interior_door"
+								]
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"spawn_egg": {
+										"texture": "interior_door",
+										"texture_index": 0
+									},
+									"identifier": "tardisaddon:interior_door",
+									"materials": {
+										"default": "entity"
+									},
+									"textures": {
+										"default": "textures/entity/steampunk_blue"
+									},
+									"geometry": {
+										"default": "geometry.steam_interior_door_model"
+									},
+									"render_controllers": [
+										"controller.render.interior_door"
+									]
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "interior_door",
+									"texture_index": 0
+								}
+							},
+							{
+								"open": {
+									"spawn_egg": {
+										"texture": "interior_door",
+										"texture_index": 0
+									},
+									"identifier": "tardisaddon:interior_door",
+									"materials": {
+										"default": "entity"
+									},
+									"textures": {
+										"default": "textures/entity/steampunk_blue"
+									},
+									"geometry": {
+										"default": "geometry.steam_interior_door_model"
+									},
+									"render_controllers": [
+										"controller.render.interior_door"
+									]
+								},
+								"data": "tardisaddon:interior_door",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"spawn_egg": {
+										"texture": "interior_door",
+										"texture_index": 0
+									},
+									"identifier": "tardisaddon:interior_door",
+									"materials": {
+										"default": "entity"
+									},
+									"textures": {
+										"default": "textures/entity/steampunk_blue"
+									},
+									"geometry": {
+										"default": "geometry.steam_interior_door_model"
+									},
+									"render_controllers": [
+										"controller.render.interior_door"
+									]
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity"
+								}
+							},
+							{
+								"open": {
+									"spawn_egg": {
+										"texture": "interior_door",
+										"texture_index": 0
+									},
+									"identifier": "tardisaddon:interior_door",
+									"materials": {
+										"default": "entity"
+									},
+									"textures": {
+										"default": "textures/entity/steampunk_blue"
+									},
+									"geometry": {
+										"default": "geometry.steam_interior_door_model"
+									},
+									"render_controllers": [
+										"controller.render.interior_door"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/steampunk_blue"
+								}
+							},
+							{
+								"open": {
+									"spawn_egg": {
+										"texture": "interior_door",
+										"texture_index": 0
+									},
+									"identifier": "tardisaddon:interior_door",
+									"materials": {
+										"default": "entity"
+									},
+									"textures": {
+										"default": "textures/entity/steampunk_blue"
+									},
+									"geometry": {
+										"default": "geometry.steam_interior_door_model"
+									},
+									"render_controllers": [
+										"controller.render.interior_door"
+									]
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.steam_interior_door_model"
+								}
+							},
+							{
+								"open": {
+									"spawn_egg": {
+										"texture": "interior_door",
+										"texture_index": 0
+									},
+									"identifier": "tardisaddon:interior_door",
+									"materials": {
+										"default": "entity"
+									},
+									"textures": {
+										"default": "textures/entity/steampunk_blue"
+									},
+									"geometry": {
+										"default": "geometry.steam_interior_door_model"
+									},
+									"render_controllers": [
+										"controller.render.interior_door"
+									]
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.interior_door"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"BP/entity/interior_door.json": {
+		"data": {}
+	},
+	"RP/entity/interior_door.entity.json": {
+		"data": {}
+	},
+	"RP/models/entity/steam_interior_door_model.json": {
+		"data": {}
+	},
+	"RP/models/entity/steam_interior_door_open.json": {
+		"data": {}
+	},
+	"RP/textures/item_texture.json": {
+		"data": {}
+	},
+	"RP/textures/terrain_texture.json": {
+		"data": {}
+	},
+	"BP/entities/interior_door.json": {
+		"data": {}
+	},
+	"BP/loot_tables/interior_door.loot.json": {
+		"data": {}
+	},
+	"RP/render_controllers/interior_door.json": {
+		"data": {}
+	},
+	"RP/sounds/sound_definitions.json": {
+		"data": {}
+	},
+	"BP/blocks/tardis_engine.json": {
+		"data": {}
+	},
+	"RP/blocks.json": {
+		"data": {}
+	},
+	"BP/loot_tables/tardis_engine.loot.json": {
+		"data": {}
+	},
+	"BP/entities/tardis_exterior.json": {
+		"data": {}
+	},
+	"RP/entity/tardis_exterior.entity.json": {
+		"data": {}
+	},
+	"RP/render_controllers/tardis_exterior.render_controllers.json": {
+		"data": {}
+	},
+	"RP/models/entity/steam_exterior_model.json": {
+		"data": {}
+	},
+	"BP/recipes/tardis_exterior.recipe.json": {
+		"data": {}
+	},
+	"BP/functions/tick.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/tardis_exterior.json": {
+		"data": {}
+	}
+}

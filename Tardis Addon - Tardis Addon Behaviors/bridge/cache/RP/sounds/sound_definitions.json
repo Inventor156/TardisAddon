@@ -1,0 +1,203 @@
+{
+	"file_path": "C:\\Users\\fourr\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Tardis Addon - Tardis Addon Resources\\sounds\\sound_definitions.json",
+	"file_type": "sound_definition",
+	"format_version": 1,
+	"file_uuid": "81fa0243_85b6_4a6b_88ec_ffd899e22fa5",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.14.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.14.0",
+					"sound_definitions": {
+						"block.tardis.takeoff": {
+							"category": "block",
+							"sounds": [
+								"sounds/tardis_takeoff"
+							]
+						},
+						"block.tardis.land": {
+							"category": "block",
+							"sounds": [
+								"sounds/tardis_land"
+							]
+						},
+						"entity.door.open": {
+							"category": "neutral",
+							"sounds": [
+								"sounds/door_open"
+							]
+						},
+						"entity.door.close": {
+							"category": "neutral",
+							"sounds": [
+								"sounds/door_close"
+							]
+						}
+					}
+				},
+				"key": "sound_definitions",
+				"children": [
+					{
+						"key": "block.tardis.takeoff",
+						"is_minified": true,
+						"children": {
+							"category": "block",
+							"sounds": [
+								"sounds/tardis_takeoff"
+							]
+						}
+					},
+					{
+						"open": {
+							"block.tardis.takeoff": {
+								"category": "block",
+								"sounds": [
+									"sounds/tardis_takeoff"
+								]
+							},
+							"block.tardis.land": {
+								"category": "block",
+								"sounds": [
+									"sounds/tardis_land"
+								]
+							},
+							"entity.door.open": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/door_open"
+								]
+							},
+							"entity.door.close": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/door_close"
+								]
+							}
+						},
+						"key": "block.tardis.land",
+						"children": [
+							{
+								"data": "block",
+								"key": "category"
+							},
+							{
+								"open": {
+									"category": "block",
+									"sounds": [
+										"sounds/tardis_land"
+									]
+								},
+								"key": "sounds",
+								"is_minified": true,
+								"children": [
+									"sounds/tardis_land"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"block.tardis.takeoff": {
+								"category": "block",
+								"sounds": [
+									"sounds/tardis_takeoff"
+								]
+							},
+							"block.tardis.land": {
+								"category": "block",
+								"sounds": [
+									"sounds/tardis_land"
+								]
+							},
+							"entity.door.open": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/door_open"
+								]
+							},
+							"entity.door.close": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/door_close"
+								]
+							}
+						},
+						"key": "entity.door.open",
+						"children": [
+							{
+								"data": "neutral",
+								"key": "category"
+							},
+							{
+								"open": {
+									"category": "neutral",
+									"sounds": [
+										"sounds/door_open"
+									]
+								},
+								"key": "sounds",
+								"is_minified": true,
+								"children": [
+									"sounds/door_open"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"block.tardis.takeoff": {
+								"category": "block",
+								"sounds": [
+									"sounds/tardis_takeoff"
+								]
+							},
+							"block.tardis.land": {
+								"category": "block",
+								"sounds": [
+									"sounds/tardis_land"
+								]
+							},
+							"entity.door.open": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/door_open"
+								]
+							},
+							"entity.door.close": {
+								"category": "neutral",
+								"sounds": [
+									"sounds/door_close"
+								]
+							}
+						},
+						"key": "entity.door.close",
+						"children": [
+							{
+								"data": "neutral",
+								"key": "category"
+							},
+							{
+								"open": {
+									"category": "neutral",
+									"sounds": [
+										"sounds/door_close"
+									]
+								},
+								"key": "sounds",
+								"is_minified": true,
+								"children": [
+									"sounds/door_close"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
