@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Tardis Addon Resources",
+    "description": "A fully functioning TARDIS",
+    "uuid": "b28fbc2b-6972-48c2-a910-6a1d08bdde11",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [ 1, 16, 200 ]
+  },
+  "modules": [
+    {
+      "description": "Resources for Tardis Addon",
+      "type": "resources",
+      "uuid": "5ef04135-3758-4795-8e30-4fa930f59845",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

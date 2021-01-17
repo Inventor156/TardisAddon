@@ -1,0 +1,24 @@
+//bridge-file-version: #4
+{
+	"resource_pack_name": "tardisaddon",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"steampunk_blue": {
+			"textures": [
+				"textures/block/steampunk_blue"
+			]
+		},
+		"steam_blue_door": {
+			"textures": [
+				"textures/items/steam_blue_door"
+			]
+		},
+		"engine": {
+			"textures": [
+				"textures/block/engine"
+			]
+		}
+	}
+}

@@ -1,0 +1,25 @@
+//bridge-file-version: #37
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"spawn_egg": {
+				"texture": "interior_door",
+				"texture_index": 0
+			},
+			"identifier": "tardisaddon:interior_door",
+			"materials": {
+				"default": "entity"
+			},
+			"textures": {
+				"default": "textures/entity/steampunk_blue"
+			},
+			"geometry": {
+				"default": "geometry.steam_interior_door_model"
+			},
+			"render_controllers": [
+				"controller.render.interior_door"
+			]
+		}
+	}
+}

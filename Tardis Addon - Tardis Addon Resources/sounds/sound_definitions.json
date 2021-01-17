@@ -1,0 +1,30 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"block.tardis.takeoff": {
+			"category": "block",
+			"sounds": [
+				"sounds/tardis_takeoff"
+			]
+		},
+		"block.tardis.land": {
+			"category": "block",
+			"sounds": [
+				"sounds/tardis_land"
+			]
+		},
+		"entity.door.open": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/door_open"
+			]
+		},
+		"entity.door.close": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/door_close"
+			]
+		}
+	}
+}

@@ -1,0 +1,6 @@
+##bridge-file-version: #6
+item.spawn_egg.entity.tardisaddon:interior_door.name=TARDIS Door
+entity.tardisaddon:interior_door.name=TARDIS Door
+item.spawn_egg.entity.tardisaddon:tardis_exterior.name=TARDIS Exterior
+tile.tardisaddon:tardis_engine.name=TARDIS Engine
+entity.tardisaddon:tardis_exterior.name=TARDIS Exterior
